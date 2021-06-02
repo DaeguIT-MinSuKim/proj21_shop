@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +11,7 @@
 <body>
 	<h1>회원 로그인</h1>
 	<section id="loginFormArea">
-		<form action="login" method="post">
+		<form:form modelAttribute="loginCommand" >
 			<div>
 				<table>
 					<tr>
@@ -18,14 +19,15 @@
 						<td><input type="text" name="id" id="id"></td>
 					</tr>
 					<tr>
-						<td><label for="passwd">비밀번호 </label></td>
-						<td><input type="password" name="passwd" id="passwd" /></td>
+						<td><label for="password">비밀번호 </label></td>
+						<td><input type="password" name="password" id="password" /></td>
 				</table>
 				<input type="submit" value="로그인" id="selectButton" /><br> <input
 					type="button" value="회원가입" id="memberButton"
-					onClick="location.href='register'" />
+					onClick="location.href='register'" /><br>
+					<input type="checkbox" name="rememberId" value="rememberId"/>아이디 기억하기
 			</div>
-		</form>
+		</form:form>
 	</section>
 </body>
 </html>

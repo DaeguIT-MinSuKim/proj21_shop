@@ -77,34 +77,34 @@
 		<form action="register" method="post">
 			<table class="type02">
 				<tr>
-					<th scope="row"><label for="name">이름</label></th>
-					<td><input type="text" name="name" id="name"></td>
+					<th scope="row"><label for="memberName">이름</label></th>
+					<td><input type="text" name="memberName" id="memberName"></td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="id">아이디</label></th>
-					<td><input type="text" name="id" id="id"></td>
+					<th scope="row"><label for="memberId">아이디</label></th>
+					<td><input type="text" name="memberId" id="memberId"></td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="passwd">비밀번호</label></th>
-					<td><input type="password" name="passwd" id="passwd"></td>
+					<th scope="row"><label for="memberPwd">비밀번호</label></th>
+					<td><input type="password" name="memberPwd" id="memberPwd"></td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="passwdconfirm">비밀번호 확인</label></th>
-					<td><input type="password" name="passwdconfirm"
-						id="passwdconfirm"></td>
+					<th scope="row"><label for="memberPwdConfirm">비밀번호 확인</label></th>
+					<td><input type="password" name="memberPwdConfirm"
+						id="memberPwdConfirm"></td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="tel">전화번호</label></th>
-					<td><input type="text" name="text" id="text"></td>
+					<th scope="row"><label for="memberPh">전화번호</label></th>
+					<td><input type="text" name="memberPh" id="memberPh"></td>
 				</tr>
 				<tr>
 					<th scope="row">생년월일</th>
-					<td><input type='date' name='birthday' value='1999-03-30' /></td>
+					<td><input type='date' name='memberBirth' value='1999-03-30' /></td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="gender">성별</label></th>
-					<td><input type="radio" name="gender" value="male">남자
-						<input type="radio" name="gender" value="female">여자</td>
+					<th scope="row"><label for="memberGender">성별</label></th>
+					<td><input type="radio" name="memberGender" value="male">남자
+						<input type="radio" name="memberGender" value="female">여자</td>
 				</tr>
 				<tr>
 					<th scope="row"><label for="address">주소</label></th>
@@ -119,7 +119,7 @@
 					</td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="confirmQ">본인확인질문</label></th>
+					<th scope="row"><label for="memberPwdQ">본인확인질문</label></th>
 					<td><select id="hint" name="hint">
 							<option value="hint_01">기억에 남는 추억의 장소는?</option>
 							<option value="hint_02">자신의 인생 좌우명은?</option>
@@ -128,8 +128,8 @@
 					</select></td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="답변">답변</label></th>
-					<td><input type="text" name="answer" id="answer"></td>
+					<th scope="row"><label for="memberPwdA">답변</label></th>
+					<td><input type="text" name="memberPwdA" id="memberPwdA"></td>
 				</tr>
 			</table>
 			<div>

@@ -202,3 +202,158 @@
 [DEBUG] [2021-06-02 08:45] LoginTimeout 30
 [DEBUG] [2021-06-02 08:45] testOpenSession()
 [DEBUG] [2021-06-02 08:45] session org.apache.ibatis.session.defaults.DefaultSqlSession@19872157
+[DEBUG] [2021-06-02 15:53] test01SelectAll()
+[DEBUG] [2021-06-02 15:53] ==>  Preparing: select m_id, m_email, m_passwd, m_name, m_join from member
+[DEBUG] [2021-06-02 15:53] ==> Parameters: 
+[DEBUG] [2021-06-02 15:53] <==      Total: 0
+[DEBUG] [2021-06-02 15:56] test01SelectAll()
+[DEBUG] [2021-06-02 15:56] ==>  Preparing: select m_id, m_email, m_passwd, m_name, m_join from member
+[DEBUG] [2021-06-02 15:56] ==> Parameters: 
+[TRACE] [2021-06-02 15:56] <==    Columns: m_id, m_email, m_passwd, m_name, m_join
+[TRACE] [2021-06-02 15:56] <==        Row: test01, test1@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:56] <==        Row: test02, test2@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:56] <==        Row: test03, test3@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:56] <==        Row: test04, test4@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:56] <==        Row: test05, test5@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 2021-06-02 15:56:41.0
+[DEBUG] [2021-06-02 15:56] <==      Total: 5
+[DEBUG] [2021-06-02 15:59] test01SelectAll()
+[DEBUG] [2021-06-02 15:59] ==>  Preparing: select m_id, m_email, m_passwd, m_name, m_join from member
+[DEBUG] [2021-06-02 15:59] ==> Parameters: 
+[TRACE] [2021-06-02 15:59] <==    Columns: m_id, m_email, m_passwd, m_name, m_join
+[TRACE] [2021-06-02 15:59] <==        Row: test01, test1@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:59] <==        Row: test02, test2@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:59] <==        Row: test03, test3@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:59] <==        Row: test04, test4@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 15:59] <==        Row: test05, test5@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 2021-06-02 15:56:41.0
+[DEBUG] [2021-06-02 15:59] <==      Total: 5
+[DEBUG] [2021-06-02 16:02] test01SelectAll()
+[DEBUG] [2021-06-02 16:02] ==>  Preparing: select m_id, m_email, m_passwd, m_name, m_join from member
+[DEBUG] [2021-06-02 16:02] ==> Parameters: 
+[TRACE] [2021-06-02 16:02] <==    Columns: m_id, m_email, m_passwd, m_name, m_join
+[TRACE] [2021-06-02 16:02] <==        Row: test01, test1@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:02] <==        Row: test02, test2@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:02] <==        Row: test03, test3@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:02] <==        Row: test04, test4@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:02] <==        Row: test05, test5@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 2021-06-02 15:56:41.0
+[DEBUG] [2021-06-02 16:02] <==      Total: 5
+[DEBUG] [2021-06-02 16:06] test01SelectAll()
+[DEBUG] [2021-06-02 16:06] ==>  Preparing: select m_id, m_email, m_passwd, m_name, m_join from member
+[DEBUG] [2021-06-02 16:06] ==> Parameters: 
+[TRACE] [2021-06-02 16:06] <==    Columns: m_id, m_email, m_passwd, m_name, m_join
+[TRACE] [2021-06-02 16:06] <==        Row: test01, test1@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:06] <==        Row: test02, test2@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:06] <==        Row: test03, test3@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:06] <==        Row: test04, test4@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 2021-06-02 15:56:41.0
+[TRACE] [2021-06-02 16:06] <==        Row: test05, test5@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 2021-06-02 15:56:41.0
+[DEBUG] [2021-06-02 16:06] <==      Total: 5
+[DEBUG] [2021-06-02 16:06] test02SelectById()
+[DEBUG] [2021-06-02 16:06] ==>  Preparing: select m_id, m_email, m_passwd, m_name, m_join from member WHERE m_id = ?;
+[DEBUG] [2021-06-02 16:06] ==> Parameters: test01(String)
+[TRACE] [2021-06-02 16:06] <==    Columns: m_id, m_email, m_passwd, m_name, m_join
+[TRACE] [2021-06-02 16:06] <==        Row: test01, test1@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 2021-06-02 15:56:41.0
+[DEBUG] [2021-06-02 16:06] <==      Total: 1
+[DEBUG] [2021-06-02 16:06] test01, test1@test.co.kr, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가,2021-06-02T15:56:41
+[DEBUG] [2021-06-02 18:35] test01SelectAll()
+[DEBUG] [2021-06-02 18:35] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 18:35] ==> Parameters: 
+[TRACE] [2021-06-02 18:35] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 18:35] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 18:36] test01SelectAll()
+[DEBUG] [2021-06-02 18:36] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 18:36] ==> Parameters: 
+[TRACE] [2021-06-02 18:36] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 18:36] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 18:48] test01SelectAll()
+[DEBUG] [2021-06-02 18:48] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 18:48] ==> Parameters: 
+[TRACE] [2021-06-02 18:48] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 18:48] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 18:52] test01SelectAll()
+[DEBUG] [2021-06-02 18:53] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 18:53] ==> Parameters: 
+[TRACE] [2021-06-02 18:53] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 18:53] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:02] test01SelectAll()
+[DEBUG] [2021-06-02 19:02] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 19:02] ==> Parameters: 
+[TRACE] [2021-06-02 19:02] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:02] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:12] test01SelectAll()
+[DEBUG] [2021-06-02 19:12] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 19:12] ==> Parameters: 
+[TRACE] [2021-06-02 19:12] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:12] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:12] <==        Row: test02, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746851, 대구광역시 남구 봉덕동 이천로 52, 2층, 본인확인질문, 본인확인질문답변, test2@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:12] <==        Row: test03, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746852, 대구광역시 남구 봉덕동 이천로 53, 1층, 본인확인질문, 본인확인질문답변, test3@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:12] <==        Row: test04, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746853, 대구광역시 남구 봉덕동 이천로 54, 2층, 본인확인질문, 본인확인질문답변, test4@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:12] <==        Row: test05, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746854, 대구광역시 남구 봉덕동 이천로 55, 3층, 본인확인질문, 본인확인질문답변, test5@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:12] <==      Total: 5
+[DEBUG] [2021-06-02 19:17] test01SelectAll()
+[DEBUG] [2021-06-02 19:17] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 19:17] ==> Parameters: 
+[TRACE] [2021-06-02 19:17] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:17] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:17] <==        Row: test02, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746851, 대구광역시 남구 봉덕동 이천로 52, 2층, 본인확인질문, 본인확인질문답변, test2@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:17] <==        Row: test03, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746852, 대구광역시 남구 봉덕동 이천로 53, 1층, 본인확인질문, 본인확인질문답변, test3@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:17] <==        Row: test04, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746853, 대구광역시 남구 봉덕동 이천로 54, 2층, 본인확인질문, 본인확인질문답변, test4@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:17] <==        Row: test05, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746854, 대구광역시 남구 봉덕동 이천로 55, 3층, 본인확인질문, 본인확인질문답변, test5@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:17] <==      Total: 5
+[DEBUG] [2021-06-02 19:19] test02SelectById()
+[DEBUG] [2021-06-02 19:19] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member WHERE m_id = ?
+[DEBUG] [2021-06-02 19:19] ==> Parameters: test01(String)
+[TRACE] [2021-06-02 19:19] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:19] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:19] <==      Total: 1
+[DEBUG] [2021-06-02 19:19] MemberDTO [memberId=test01, memberPwd=*23AE809DDACAF96AF0FD78ED04B6A265E05AA257, memberPwdConfirm=null, memberName=이종가, memberPh=010-1234-5678, memberBirth=1994-08-17T00:00, memberGender=남자, memberPwdQ=본인확인질문, memberPwdA=본인확인질문답변, memberAddr1=746858, memberAddr2=대구광역시 남구 봉덕동 이천로 51, memberAddr3=3층, memberEmail=test1@test.co.kr, memberCreDate=2021-06-02, memberPoint=0, memberTotalBuy=0, memberTotalOrder=0, memberTotalLogin=0, memberExit=0]
+[DEBUG] [2021-06-02 19:44] test01SelectAll()
+[DEBUG] [2021-06-02 19:44] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 19:44] ==> Parameters: 
+[TRACE] [2021-06-02 19:44] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:44] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:44] <==        Row: test02, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746851, 대구광역시 남구 봉덕동 이천로 52, 2층, 본인확인질문, 본인확인질문답변, test2@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:44] <==        Row: test03, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746852, 대구광역시 남구 봉덕동 이천로 53, 1층, 본인확인질문, 본인확인질문답변, test3@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:44] <==        Row: test04, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746853, 대구광역시 남구 봉덕동 이천로 54, 2층, 본인확인질문, 본인확인질문답변, test4@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:44] <==        Row: test05, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746854, 대구광역시 남구 봉덕동 이천로 55, 3층, 본인확인질문, 본인확인질문답변, test5@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:44] <==      Total: 5
+[DEBUG] [2021-06-02 19:44] test02SelectById()
+[DEBUG] [2021-06-02 19:44] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member WHERE m_id = ?
+[DEBUG] [2021-06-02 19:44] ==> Parameters: test01(String)
+[TRACE] [2021-06-02 19:44] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:44] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:44] <==      Total: 1
+[DEBUG] [2021-06-02 19:44] MemberDTO [memberId=test01, memberPwd=*23AE809DDACAF96AF0FD78ED04B6A265E05AA257, memberPwdConfirm=null, memberName=이종가, memberPh=010-1234-5678, memberBirth=1994-08-17T00:00, memberGender=남자, memberPwdQ=본인확인질문, memberPwdA=본인확인질문답변, memberAddr1=746858, memberAddr2=대구광역시 남구 봉덕동 이천로 51, memberAddr3=3층, memberEmail=test1@test.co.kr, memberCreDate=2021-06-02, memberPoint=0, memberTotalBuy=0, memberTotalOrder=0, memberTotalLogin=0, memberExit=0]
+[DEBUG] [2021-06-02 19:58] test01SelectAll()
+[DEBUG] [2021-06-02 19:58] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member
+[DEBUG] [2021-06-02 19:58] ==> Parameters: 
+[TRACE] [2021-06-02 19:58] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:58] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:58] <==        Row: test02, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종나, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746851, 대구광역시 남구 봉덕동 이천로 52, 2층, 본인확인질문, 본인확인질문답변, test2@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:58] <==        Row: test03, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종다, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746852, 대구광역시 남구 봉덕동 이천로 53, 1층, 본인확인질문, 본인확인질문답변, test3@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:58] <==        Row: test04, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종라, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746853, 대구광역시 남구 봉덕동 이천로 54, 2층, 본인확인질문, 본인확인질문답변, test4@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[TRACE] [2021-06-02 19:58] <==        Row: test05, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종마, 010-1234-5678, 1994-08-17 00:00:00.0, 0, 746854, 대구광역시 남구 봉덕동 이천로 55, 3층, 본인확인질문, 본인확인질문답변, test5@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:58] <==      Total: 5
+[DEBUG] [2021-06-02 19:58] test02SelectById()
+[DEBUG] [2021-06-02 19:58] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member WHERE m_id = ?
+[DEBUG] [2021-06-02 19:58] ==> Parameters: test01(String)
+[TRACE] [2021-06-02 19:58] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 19:58] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 19:58] <==      Total: 1
+[DEBUG] [2021-06-02 19:58] MemberDTO [memberId=test01, memberPwd=*23AE809DDACAF96AF0FD78ED04B6A265E05AA257, memberPwdConfirm=null, memberName=이종가, memberPh=010-1234-5678, memberBirth=1994-08-17T00:00, memberGender=남자, memberPwdQ=본인확인질문, memberPwdA=본인확인질문답변, memberAddr1=746858, memberAddr2=대구광역시 남구 봉덕동 이천로 51, memberAddr3=3층, memberEmail=test1@test.co.kr, memberCreDate=2021-06-02, memberPoint=0, memberTotalBuy=0, memberTotalOrder=0, memberTotalLogin=0, memberExit=0]
+[DEBUG] [2021-06-02 20:05] testAuthenicate()
+[DEBUG] [2021-06-02 20:05] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member WHERE m_id = ?
+[DEBUG] [2021-06-02 20:05] ==> Parameters: test01(String)
+[TRACE] [2021-06-02 20:05] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 20:05] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 20:05] <==      Total: 1
+[DEBUG] [2021-06-02 20:06] testAuthenicate()
+[DEBUG] [2021-06-02 20:06] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member WHERE m_id = ?
+[DEBUG] [2021-06-02 20:06] ==> Parameters: test01(String)
+[TRACE] [2021-06-02 20:06] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 20:06] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 20:06] <==      Total: 1
+[DEBUG] [2021-06-02 20:07] testAuthenicate()
+[DEBUG] [2021-06-02 20:07] ==>  Preparing: select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit from member WHERE m_id = ?
+[DEBUG] [2021-06-02 20:07] ==> Parameters: test01(String)
+[TRACE] [2021-06-02 20:07] <==    Columns: m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, m_addr3, m_question, m_answer, m_email, m_join, m_point, m_total_buy, m_total_order, m_total_login, m_exit
+[TRACE] [2021-06-02 20:07] <==        Row: test01, *23AE809DDACAF96AF0FD78ED04B6A265E05AA257, 이종가, 010-1234-5678, 1994-08-17 00:00:00.0, 1, 746858, 대구광역시 남구 봉덕동 이천로 51, 3층, 본인확인질문, 본인확인질문답변, test1@test.co.kr, 2021-06-02 15:56:41.0, 0, 0, 0, 0, 0
+[DEBUG] [2021-06-02 20:07] <==      Total: 1
