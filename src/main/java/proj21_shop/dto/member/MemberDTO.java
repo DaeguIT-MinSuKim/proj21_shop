@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class MemberDTO {
 
-	private String memberId;
 	private String memberPwd;
+	private String memberId;
 
 	private String memberPwdConfirm; // 비밀번호확인
 

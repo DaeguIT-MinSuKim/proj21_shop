@@ -28,6 +28,11 @@ insert into review
 values (1, 1, '이나연', '옷이 너무 맘에 드네요', 'insert1.jpg', 'insert2.jpg', '2021-5-26', 5);
 
 -- 후기 내역
+select * from `order` o ;
+
+select count(order_num)
+  from `order`;
+
 select pro_num, re_member, re_content, re_image, re_date
   from review;
 
@@ -84,10 +89,18 @@ update member
  where m_id = 'test06';
 
 -- 주문 상세 내역 페이지 //상품정보에 사진을 어떻게 넣는지 모르겠어서 번호로 우선 넣어놓기로 함, 적립금 어떻게 해야할지 모르겠음
-select or_num, pro_num, order_price, order_pro_quantity, delivery_status, order_date 
-  from `order`
- where order_member_id = 'skdus2421';
+select * from `order`;
+select * from product;
+
+select o.order_num, p.pro_name ,o.order_date, o.order_pro_quantity, o.order_price, o.delivery_status
+  from `order` o
+  join product p
+    on o.pro_num = p.pro_num
+ where order_member_id = 'test01'
+ order by order_num desc
+ limit 0, 10;
  
+select count(order_num) from `order`;
 -- 배송지 정보
 select order_member_name, receiver_tel1, receiver_tel2, delivery_addr, delivery_addr_de 
   from `order`
@@ -103,6 +116,6 @@ select m_id, m_passwd, m_name, m_phone, m_birthday, m_gender, m_addr1, m_addr2, 
 
 select * from member;
  
-delete from member where m_id = 'test06';
+delete from member where m_id = 'test07';
 
 select * from review;

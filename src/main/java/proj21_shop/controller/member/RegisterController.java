@@ -24,7 +24,7 @@ public class RegisterController {
 	@GetMapping
 	public String register(Model model) {
 		model.addAttribute("RegisterRequest", new RegisterRequest());
-		return "member/register/registerForm";
+		return "main/main";
 	}
 	
 	@PostMapping
@@ -33,7 +33,7 @@ public class RegisterController {
 			return "member/register/registerForm";
 		try {
 			memberRegisterService.regist(regReq);
-			return "member/register/registerSuccess";
+			return "/member/login/loginForm";
 		}catch(DuplicateMemberException ex) {
 			return "member/register/registerForm";
 		}

@@ -4,8 +4,11 @@ import java.util.List;
 
 import proj21_shop.dto.cart.CartDTO;
 import proj21_shop.dto.member.MemberDTO;
+import proj21_shop.dto.order.OrderDTO;
 
 public interface MemberOrderMapper {
+	List<OrderDTO> selectOrderByMemberId(MemberDTO memberId);
+	
 	List<CartDTO> selectCartByMemberId(MemberDTO memId);
 	CartDTO selectCartByCartNum(CartDTO cart);
 	
